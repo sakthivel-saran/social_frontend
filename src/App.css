@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* LOGIN PAGE */
+
+.login-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:70vh;
+}
+
+.login-box{
+  width:400px;
+  background:white;
+  padding:40px;
+  border-radius:6px;
+  box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+  border:1px solid #ddd;
+}
+
+.login-title{
+  text-align:center;
+  margin-bottom:25px;
+  color:#333;
+}
+
+.login-form{
+  display:flex;
+  flex-direction:column;
+}
+
+.login-input{
+  padding:12px;
+  margin-bottom:15px;
+  border:1px solid #ccc;
+  border-radius:4px;
+  font-size:14px;
+}
+
+.login-input:focus{
+  outline:none;
+  border-color:#4db6c9;
+}
+
+.login-btn{
+  padding:12px;
+  background:#4db6c9;
+  border:none;
+  color:white;
+  font-size:15px;
+  border-radius:4px;
+  cursor:pointer;
+}
+
+.login-btn:hover{
+  background:#3da6b9;
+}
+
+.login-footer{
+  text-align:center;
+  margin-top:15px;
+  font-size:14px;
+}
+
+.login-footer a{
+  color:#4db6c9;
+  text-decoration:none;
+}
