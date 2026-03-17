@@ -34,7 +34,7 @@ function App() {
   const [editThumbnail, setEditThumbnail] = useState('');
   const navigate = useNavigate();
   const {width} = useWindowSize()
-  const { data, fetchError, isLoading } = useAxiosFetch('http://localhost:3500/posts');
+  const { data, fetchError, isLoading } = useAxiosFetch('https://social-backend-hsrm.onrender.com/posts');
 
 
 
